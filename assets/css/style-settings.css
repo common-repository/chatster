@@ -1,0 +1,224 @@
+#ch-options-main-container {
+  background-color: #FFF;
+  padding: 35px 18px;
+  margin-top: 0;
+  box-shadow: 2px 3px 8px -4px rgba(0, 5, 4, .89);
+  margin-right: 20px;
+}
+
+.ch-reply-btn {
+    margin-top: 20px;
+}
+
+.ch-option-container {
+  padding: 25px;
+  box-shadow: 1px 1px 7px -4px rgba(0, 0, 0,  0.43);
+}
+
+.ch-inline-radio {
+  display: flex;
+}
+
+#chatster_bot_options_ch_bot_image {
+  flex-wrap: wrap !important;
+}
+
+.ch-option-container h2 {
+  font-style: italic;
+  margin-top: 30px;
+}
+
+.form-table {
+  margin-left: 20px;
+}
+
+.ch-inline-radio label {
+  text-align: center;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.ch-inline-radio h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.ch-inline-radio h4 {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.ch-inline-radio h5 {
+  margin-top: 17px;
+  margin-bottom: 0;
+}
+/* Option buttons */
+.ch-option-block {
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.ch-option-title {
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: 600;
+  border: 1px solid #FAFAFA;
+  padding: 18px 0px;
+  cursor: pointer;
+  min-width: 500px;
+  box-shadow: 1px 1px 7px -4px rgba(0, 0, 0,  0.43);
+  margin: 0;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  text-indent: 30px;
+  margin-left: -1px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Volume Range */
+#chatster_chat_options_ch_chat_volume, #chatster_chat_options_ch_chat_volume_admin {
+  margin-top: 5px;
+  -webkit-appearance: none;
+  height: 15px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+#chatster_chat_options_ch_chat_volume:hover,
+#chatster_chat_options_ch_chat_volume_admin:hover {
+  opacity: .9;
+}
+
+#chatster_chat_options_ch_chat_volume::-webkit-slider-thumb,
+#chatster_chat_options_ch_chat_volume_admin::-webkit-slider-thumb  {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #04346D;
+  cursor: pointer;
+}
+
+#chatster_chat_options_ch_chat_volume::-moz-range-thumb,
+#chatster_chat_options_ch_chat_volume_admin::-moz-range-thumb
+ {
+  width: 18px;
+  height: 15px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+
+/** Request Options*/
+
+#header_img_input_container {
+  display: flex;
+  align-items: center;
+}
+
+#header_img_input_container  .header_img {
+  max-width: 150px;
+  max-height: 55px;
+  margin-left: 30px;
+}
+
+#header_img_input_container  .no-image-found {
+  border: 2px solid orangered;
+}
+
+/** Q&A */
+
+.single-qa {
+  padding: 10px;
+  box-shadow: 1px 1px 7px -4px rgba(0, 0, 0, 0.43);
+  max-width: 500px;
+  margin-bottom: 7px;
+}
+
+.question-container {
+  padding: 7px;
+  font-weight: 600;
+  max-width: 500px;
+  color: #FFF;
+  background-color: #DB4313;
+}
+
+.ch-answer{
+  padding: 7px;
+  font-weight: 600;
+  max-width: 500px;
+  color: #444;
+  background-color: lemonchiffon;
+  margin-bottom: 7px;
+}
+.ch-edit-answer {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-left: 18px;
+}
+.ch-delete-answer {
+  font-style: italic;
+  margin-left: 10px;
+}
+.ch-edit-answer, .ch-delete-answer {
+  cursor: pointer;
+}
+
+.ch-edit-qa .ch-smaller-loader {
+  margin-left: 10px !important;
+}
+
+.ch-qa-edited {
+  border: 2px solid royalblue;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.page-numbers {
+  display: flex;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+#ch-no-q-and-a {
+  display: block;
+  text-align: center;
+  font-size: 1.8em;
+  padding: 40px 0;
+  font-weight: 600;
+  }
+
+#reset-bot-q-and-a {
+  margin-left: 20px;
+}
+
+/* gloabl Reset Button */
+.reset-all-block {
+  max-width: 500px;
+  margin-top: 30px;
+}
+
+.reset-all-block p {
+  text-align: right !important;
+}
+
+#reset-all, #reset-all:hover, #reset-all:focus {
+   background: #0F7D11 !important;
+   background-color: #0F7D11 !important;
+   font-size: 1.2em;
+}
+
+#reset-all:hover {
+    opacity: .9;
+}
+
+#reset-all-settings-errors .notice-success {
+  padding: 7px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,23 @@
+
+.active-convs-link {
+  border: 1px solid seagreen;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin: 1px 0 -1px 2px;
+  padding: 0 5px;
+  border-radius: 9px;
+  background-color: #0F7D11;
+  color: #fff;
+  font-size: 10px;
+  line-height: 1.6;
+  text-align: center;
+  z-index: 26;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 0.8px;
+}
+
+.hidden {
+  display: none;
+}

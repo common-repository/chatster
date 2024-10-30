@@ -1,0 +1,41 @@
+
+/* Mobile Style */
+@media screen and (max-width: 400px) {
+
+  #chatster-container {
+    right: 1% !important;
+    left: 1% !important;
+    margin: 0 auto !important;
+    max-width: 95% !important;
+    z-index: 1000000 !important;
+  }
+
+}
+
+/* Mobile Style */
+@media screen and (max-height: 580px) and (min-height: 525px) {
+
+  #chatster-container {
+    max-height: 95%;
+    overflow: auto;
+    z-index: 1000000 !important;
+  }
+  #ch-bot-msg-container, #ch-msg-container {
+    height: 245px !important;
+  }
+
+}
+
+@media screen and (max-height: 524px) {
+
+  #chatster-container {
+    max-height: 95%;
+    overflow: auto;
+    z-index: 1000000 !important;
+  }
+
+  #ch-bot-msg-container, #ch-msg-container {
+    height: 190px !important;
+  }
+
+}
